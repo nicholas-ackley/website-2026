@@ -1,4 +1,3 @@
-import React from 'react';
 
 const SkyBloom: React.FC = () => {
   const techStack = ['Godot Engine', 'GDScript', 'C#', 'SQLite', 'Aseprite', 'OpenSimplexNoise'];
@@ -16,7 +15,7 @@ const SkyBloom: React.FC = () => {
           </div>
           <h1 className="text-4xl font-bold text-zinc-100 mb-4 tracking-tight">SkyBloom</h1>
           <p className="text-zinc-400 text-lg leading-relaxed max-w-2xl">
-            A Starde -inspired sandbox adventure where players cultivate life on floating islands! 
+            A Stardew -inspired sandbox adventure where players cultivate life on floating islands! 
             Master procedural farming, interact with a cast of unique NPCs, and uncover the mystery 
             of the floating world through a narrative driven Story Mode.
           </p>

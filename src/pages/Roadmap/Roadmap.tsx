@@ -34,7 +34,7 @@ const Roadmap: React.FC = () => {
       year: 'Year 4: Senior Year!',
       status: 'Upcoming', // You can change this to 'Current' when ready
       icon: <Rocket className="text-purple-500" size={20} />,
-      content: 'Currently seeking summer internships! Working on a capstone project involving Computer Vision and AI integration to help Alzheimer\'s patients navigate digital environments more easily.',
+      content: 'Currently seeking summer internships as I approach my graduation date! Interested in Data Science and AI Integration. Working on a capstone project involving Computer Vision and AI integration to help Alzheimer\'s patients navigate digital environments more easily.',
       skills: ['Research', 'System Design', 'Leadership'],
       accentColor: 'border-purple-500/20',
       iconBg: 'bg-purple-500/10'

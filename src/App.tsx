@@ -26,7 +26,7 @@ function App() {
             <Route path="/projects/computer-architecture-project" element={<MathMatch />} />
             <Route path="/projects/networks-project" element={<NetworksProject />} />
             <Route path="/projects/portfolio-v1" element={<PortfolioV1 />} />
-            
+            <Route path="/projects/mathmatch" element={<MathMatch />} />
             {/* 2. Add the route for Alzheimers Interface */}
             <Route path="/projects/alzheimers-interface" element={<AlzheimersInterface />} />
             
