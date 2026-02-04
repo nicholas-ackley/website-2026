@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Terminal, Cpu, Globe, Rocket, BookOpen } from 'lucide-react';
 

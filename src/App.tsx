@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './navbar/Navbar'; 
 import Home from './pages/Home';
-import Projects from './pages/Projects';
 import HackUTD from './pages/projects/hackUTD';
 import SkyBloom from './pages/projects/Skybloom';
 import NetworksProject from './pages/projects/NetworksProject';
@@ -21,7 +20,6 @@ function App() {
         <div className="flex-1"> 
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
             <Route path="/roadmap" element={<Roadmap />} />
             <Route path="/projects/hackutd-toyota" element={<HackUTD />} />
             <Route path="/projects/sky-bloom" element={<SkyBloom />} /> 

@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Alzheimers: React.FC = () => {
   const techStack = ['Senior Research', 'UI/UX Design', 'Cognitive Accessibility', 'Human-Computer Interaction'];
