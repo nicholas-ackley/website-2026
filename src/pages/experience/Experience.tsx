@@ -1,5 +1,4 @@
-import React from 'react';
-import { Terminal, Layers, GitBranch, Users, Database, ShieldCheck } from 'lucide-react';
+import {Layers, GitBranch, Users, Database, ShieldCheck } from 'lucide-react';
 
 const Experience: React.FC = () => {
   const getSkillStyles = (skill: string) => {
