@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  /* background-color: #0a0a0a;  */
+}
+@layer utilities {
+  .bg-dot-pattern {
+    background-image: radial-gradient(circle, #242424 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+/* Update your CSS file */
+.bg-dot-pattern-main {
+  /* Using #333 or #3f3f46 (zinc-700) makes the grid much more visible */
+  background-image: radial-gradient(circle, #181818 1px, transparent 1px);
+  background-size: 24px 24px;
+  }
+}
